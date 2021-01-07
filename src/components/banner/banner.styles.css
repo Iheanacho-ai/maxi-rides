@@ -1,0 +1,41 @@
+.banner{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.book-now-container{
+    width: 300px;
+    height: 196px;
+    color: #fff;
+    position: absolute;
+    right: 100px;
+
+}
+.book-now-container button{
+    width: 160px;
+    height: 60px;
+    border-radius: 6px;
+    margin: 0 auto;
+    background-color:  #500A0A;
+    border: 1px solid #500A0A;
+    color: #fff;
+    cursor: o
+
+}
+
+@media screen and (max-width: 1000px){
+    .banner{
+        justify-content: center;
+    }
+    .book-now-container{
+        text-align: center;
+        position: unset;
+    
+    }
+    
+
+}

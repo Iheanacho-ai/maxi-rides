@@ -1,0 +1,50 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.footer-container{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.terms-container{
+    color: #fff;
+    display: flex;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.terms-container div{
+    width: 100%;
+    padding: 10px;
+    
+}
+.border-right{
+    border-right: 1px solid #fff;
+}
+.actual-footer{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 800px){
+    .actual-footer{
+        text-align: center;
+        display: block;
+    }
+    .social-media{
+        width: 40%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+.social-media{
+    display: flex;
+}
+.social-media div{
+    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    background-size: cover;
+}
