@@ -7,7 +7,7 @@ const Banner = () => (
     <div className = 'banner' style= {{backgroundImage:`url(${BannerImg})`}}>
         <div className = 'book-now-container'>
             <h1>Ecofriendly rides at your fingertips</h1>
-            <button>Book Now</button>
+            <button>Ride Now</button>
         </div>
     </div>
 );
